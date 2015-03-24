@@ -1,0 +1,10 @@
+<h1>Become a User</h1>
+<hr />
+
+<%= render 'form' %>
+
+<ul>
+  <% @users.each do |user| %>
+    <li><%= link_to user.name, user_path(user) %></li>
+  <% end %>
+</ul>
