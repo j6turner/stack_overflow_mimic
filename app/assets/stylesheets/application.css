@@ -18,3 +18,9 @@ a:hover {
 body {
   background-color: #DBDBD5;
 }
+
+.become {
+  border: 2px solid #424240;
+  border-radius: 10px;
+  text-align: center;
+}
