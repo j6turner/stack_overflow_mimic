@@ -7,7 +7,7 @@ describe "add user" do
     click_on 'Create User'
     fill_in 'Name', :with => 'Charlie Parker'
     click_on 'Create User'
-    expect(page).to have_content 'Welcome, Beautiful!'
+    expect(page).to have_content 'Stack Overflow Mimic'
   end
 
 end
